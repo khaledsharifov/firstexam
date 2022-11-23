@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    padding: 15px;
+    list-style-type: none;
+}
+.navbar ul li:hover{
+    background: white;
+}
+.navbar  ul li:hover a{
+    color: black;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar{
+    background: red;
+}
+.home{
+    background: white;
+}
+.navbar ul li p{
+    color: black;
+}
+.home:hover{
+    background: rgb(171, 171, 171);
+}
+.container{
+    background: red;
+    text-align: center;
+    padding: 100px 16px; 
+}
+.container h1{
+    margin: 16px;
+    color: white;
+    font-size: 64px;
+}
+.container p{
+    margin: 24px 0px;
+    color: white;
+    font-size: 24px;
+}
+.container button{
+    margin: 16px 0px 0px;
+    padding: 12px 24px;
+    background: black;
+    color: white;
+    border: none;
+}
+.container button:hover{
+    background: rgb(209, 209, 209);
+    color: black;
+}
+.container1{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 50px 20px;
+    line-height: 1.5;
+}
+.container1 .right{
+    font-size: 150px;
+}
+.left h1{
+    margin: 10px 0px;
+    font-weight: 500;
+}
+.left h5{
+    margin: 10px 0px;
+   padding: 32px 0px;
+   font-weight: 500;
+   font-size: 18px;
+}
+.right i{
+    padding: 50px;
+    color: red;
+    margin: 20px;
+}
+.container1 p{
+    font-size: 16px;
+    color: gray;
+}
+.fon{
+    background: rgb(225, 225, 225);
+    
+}
+.fonblack{
+    height: 20vh;
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fonblack h2{
+    color: white;
+}
+.footer{
+    height: 30vh;
+}
